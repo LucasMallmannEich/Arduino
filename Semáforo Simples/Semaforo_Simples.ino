@@ -11,7 +11,7 @@ void setup(){
 }
 
 void loop(){
-  int lista[3] = {led_vermelho, led_amarelo, led_verde};  //lista que contém o valor dos três LEDs
+  int lista[3] = {led_verde, led_amarelo, led_vermelho};  //lista que contém o valor dos três LEDs
   int i, j;  // declaração de variáveis de incremento no "loop for"
   for(i=0; i<3; i++){  // "loop for"
     digitalWrite(lista[i], HIGH);  // o semáforo irá acender um LED por vez, ou seja, um elemento da lista por vez
