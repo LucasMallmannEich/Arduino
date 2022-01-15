@@ -6,6 +6,6 @@ Conseguir elaborar um código, por meio do Arduino IDE, que acenda e apague um L
 
 Considerações:
 
-Para ligar e desligar o LED na frequência de 1 Hz, escolhi manter o LED aceso por 0,5 segundos e desligado por 0,5 segundos.
-Assim, seu ciclo de trabalho ("duty cicle") é 50 %, um valor ideal para LEDs.
+Para ligar e desligar o LED na frequência de 1 Hz, escolhi manter o LED aceso por 0,5 segundos e desligado por 0,5 segundos.          
+Assim, seu ciclo de trabalho ("duty cicle") é 50 %, um valor ideal para LEDs.            
 As demais explicações acerca das funções do programa já estão inseridas no código.
