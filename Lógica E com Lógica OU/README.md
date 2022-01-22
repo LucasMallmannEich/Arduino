@@ -2,7 +2,7 @@ Utilizando o Operador Lógico "E" com o Operador Lógico "OU" para Controlar um 
 
 Desafio:
 
-Projetar uma lógica "OU", juntamente com uma lógica "E", com 3 botões, de forma que o LED acenda quando, no mínimo, um dos dois primeiros botões forem pressionados juntamente com um terceiro botão.
+Projetar uma lógica "OU", juntamente com uma lógica "E", com 3 botões, de forma que o LED acenda enquanto, no mínimo, um dos dois primeiros botões estiverem sendo pressionados juntamente com um terceiro botão.
 
 Resolução:
 
