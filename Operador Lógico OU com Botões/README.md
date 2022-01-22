@@ -2,7 +2,7 @@ Utilizando Operador Lógico "OU" para Controlar um LED
 
 Desafio:
 
-Projetar uma lógica "E" com 2 botões, de forma que o LED acenda quando, no mínimo, um dos dois botões forem pressionados.
+Projetar uma lógica "OU" com 2 botões, de forma que o LED acenda quando, no mínimo, um dos dois botões forem pressionados.
 
 Resolução:
 
