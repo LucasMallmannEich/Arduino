@@ -1,15 +1,18 @@
-Utilizando Variáveis para Controlar o Tempo
+Utilizando Variáveis para Controlar os Pinos do Arduino
 
 Desafio:
 
-Este programa deve acender e desligar um LED por vez, alternadamente.
-O tempo entre um LED acender e apagar deve estar armazenado numa variável chamada "tempo".
-Esse tempo deve ter o valor de 1000, pois será 1000 milissegundos o intervalo entre o acender e o desligar dos LEDs.
+Este programa deve acender um LED a cada segundo, um por vez.
+No total, dez LEDs serão acessos.
+O pino de cada LED estará armazenado em apenas uma variável chamada "pino".
 
 Resolução:
 
-Em primeiro lugar, defini o "led1" como o pino 6 e o "led2" como o pino 3.
-Em segundo lugar, declarei a variável chamada de "tempo" como um inteiro (int), cujo valor é 1000.
-Após ter declarado os pinos dos LEDs como saídas (OUTPUT), efetuei a lógica do programa na função "void loop()".
-Nessa função, fiz o "led1" acender e o "led2" desligar. Após "delay(tempo)", ou seja um intervalo de tempo de 1000 milissegundos, o "led1" desligará e o "led2" acenderá.
-Após, novamente, 1000 milissegundos (ou 1 segundo), os papéis se inverterão mais uma vez e, dessa forma, se sucederá a lógica do programa.
+Em primeiro lugar, declarei a variável chamada de "pino" como um inteiro (int), cujo valor é 1.    
+Em segundo lugar, configurei os 10 pinos (do pino 1 ao pino 10) como saídas (OUTPUT) do Arduino.   
+Já no "void loop()", acionei a variável pino, cujo valor atual é 1 (ou seja, acionei o pino 1), como "HIGH" ou nível lógico alto.           
+Nessa mesma função, efetuei um "atraso" na execução do código de 1 segundo ou 1000 milissegundos.        
+Após esse tempo, a variável "pino" irá ser acrescentada em uma unidade, logo, a variável passará a ter o valor de 2.   
+Então, quando a variável "pino" for novamente acionada com o nível lógico alto, o pino 2 estará recebendo esse nível lógico alto, pois a variável "pino" é igual à 2.     
+E, dessa forma, a variável "pino" é acrescentada toda vez que passou 1 segundo desde que o último LED acendeu.   
+Dessa forma, é possível "automatizar" o processo de acionamento de diversos LEDs de uma maneira mais eficiente e menos trabalhosa.     
