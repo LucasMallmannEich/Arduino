@@ -15,4 +15,4 @@ Nessa mesma função, efetuei um "atraso" na execução do código de 1 segundo 
 Após esse tempo, a variável "pino" irá ser acrescentada em uma unidade, logo, a variável passará a ter o valor de 2.   
 Então, quando a variável "pino" for novamente acionada com o nível lógico alto, o pino 2 estará recebendo esse nível lógico alto, pois a variável "pino" é igual à 2.     
 E, dessa forma, a variável "pino" é acrescentada toda vez que passou 1 segundo desde que o último LED acendeu.   
-Dessa forma, é possível "automatizar" o processo de acionamento de diversos LEDs de uma maneira mais eficiente e menos trabalhosa.     
+Portanto, é possível "automatizar" o processo de acionamento de diversos LEDs de uma maneira mais eficiente e menos trabalhosa.     
