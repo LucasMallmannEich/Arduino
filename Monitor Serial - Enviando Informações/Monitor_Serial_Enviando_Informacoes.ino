@@ -17,4 +17,4 @@ void loop() {
   delay(3000);  // A cada 3 segundos, a frase será impressa no Monitor Serial.
 }
 
-// OBS.: Não é obrigatório que o Arduino se comunique com um computador, ele também pode se conectar a outros dispositivos.
+// OBS.: Não é obrigatório que o Arduino se comunique com um computador, ele também pode se conectar com outros dispositivos.
