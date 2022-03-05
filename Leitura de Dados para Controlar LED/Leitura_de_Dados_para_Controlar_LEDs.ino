@@ -31,7 +31,7 @@ void loop() {
       // O trecho do código acima fará a variável "palavra" ficar apenas com o que foi escrito após "LIGA".
     
       pinMode(palavra.toInt(), OUTPUT);  // isso transforma a string para inteiro e alerta que o pino do LED é uma saída
-      digitalWrite(palavra.toInt(), HIGH);  // isso apaga o pino na posição do inteiro 
+      digitalWrite(palavra.toInt(), HIGH);  // isso acende o pino na posição do inteiro 
     }
     
     if (palavra.startsWith("DESLIGA")) {
@@ -41,7 +41,7 @@ void loop() {
       // O trecho do código acima fará a variável "palavra" ficar apenas com o que foi escrito após "DESLIGA".  
 
       pinMode(palavra.toInt(), OUTPUT);  // isso transforma a string para inteiro e alerta que o pino do LED é uma saída
-      digitalWrite(palavra.toInt(), LOW);  // isso acende o pino na posição do inteiro
+      digitalWrite(palavra.toInt(), LOW);  // isso apaga o pino na posição do inteiro
     }
   }
 }
