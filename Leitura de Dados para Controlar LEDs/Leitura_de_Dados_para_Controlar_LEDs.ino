@@ -8,12 +8,9 @@ Se o usuário digitar "DESLIGA1", o programa deverá apagar o LED número 1.
 A função readString() nos informa o conjunto de caracteres total recebido no Monitor Serial.
 */
 
-#define led 2
-
 void setup() {
   Serial.begin(9600);  // velocidade de comunicação entre o Arduino e o computador, em bits por segundo
   Serial.setTimeout(100);  // tempo de espera para o readString() captar todos os caracteres enviados
-  pinMode(led, OUTPUT);  // definição do pino do LED como um pino de saída
 }
 
 // Declaração da variável "palavra".
